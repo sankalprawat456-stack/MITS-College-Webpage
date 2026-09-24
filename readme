@@ -1,0 +1,26 @@
+# Lab Experiment 1: MITS College Website Homepage
+
+## Objective
+Design and implement the front-end homepage for Madhav Institute of Technology & Science (MITS), Gwalior, featuring navigation dropdowns, institution branding, hero banners, and dynamic content grids.
+
+---
+
+## Key Features
+* **Top Utility Bar:** Quick links for accessibility controls, recruitment, notification alerts, and alumni portal access.
+* **Branding Header:** Official institute logos, Hindi and English institution titles, and NAAC A++ accreditation tags.
+* **Interactive Navigation:** Multi-level dropdown navigation bar (`About Institute`, `Administration`, `Academics`, etc.).
+* **Institution Overview & Vision:** Dedicated sections displaying the institute's vision statement and Vice Chancellor's message.
+* **Admissions & Quick Links Grid:** Responsive card layout for B.Tech, M.Tech, Ph.D., and PDF admissions along with dynamic link lists.
+
+---
+
+## Tech Stack
+* **HTML5:** Semantic elements (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`).
+* **CSS3:** Flexbox layout, dynamic CSS hover dropdowns, custom typography, and responsive grid layouts.
+
+---
+
+## Project Setup & Usage
+1. Clone or download this repository.
+2. Ensure `index.html` is located in the root folder.
+3. Open `index.html` in any web browser to view the page layout.
