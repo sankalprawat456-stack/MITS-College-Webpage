@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madhav Institute of Technology & Science, Gwalior</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    body { background-color: #f4f6f9; color: #333; }
+    
+    /* Top Utility Bar */
+    .top-bar { background-color: #000080; color: #fff; display: flex; justify-content: space-between; padding: 6px 20px; font-size: 12px; }
+    .top-bar a { color: #fff; text-decoration: none; margin-left: 15px; font-weight: bold; }
+    
+    /* Header Branding */
+    header { background: #fff; padding: 15px 20px; display: flex; align-items: center; justify-content: space-between; text-align: center; border-bottom: 2px solid #ccc; }
+    header img { height: 70px; }
+    .header-text h2 { color: #000080; font-size: 18px; }
+    .header-text h1 { color: #000080; font-size: 20px; font-weight: bold; }
+    .header-text p { font-size: 13px; color: #008000; font-weight: bold; }
+    .header-text .naac { color: #d00000; font-weight: bold; font-size: 14px; }
+    
+    /* Navbar Navigation */
+    nav { background-color: #000080; }
+    nav ul { list-style: none; display: flex; justify-content: center; position: relative; }
+    nav ul li { position: relative; }
+    nav ul li a { display: block; padding: 12px 18px; color: #fff; text-decoration: none; font-weight: bold; font-size: 14px; }
+    nav ul li:hover { background-color: #00004d; }
+    
+    /* Dropdown Styling */
+    nav ul li ul { display: none; position: absolute; top: 100%; left: 0; background-color: #fff; min-width: 180px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); z-index: 1000; }
+    nav ul li:hover ul { display: block; }
+    nav ul li ul li { border-bottom: 1px solid #eee; }
+    nav ul li ul li a { color: #333; padding: 10px 15px; font-weight: normal; font-size: 13px; }
+    nav ul li ul li a:hover { background-color: #f0f0f0; color: #000080; }
+
+    /* Main Container */
+    .container { max-width: 1000px; margin: 20px auto; padding: 0 15px; text-align: center; }
+    .hero-img { width: 100%; max-height: 380px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    
+    .welcome-title { color: #000080; margin: 20px 0 5px; font-size: 22px; text-transform: uppercase; }
+    .tagline { font-style: italic; color: #555; margin-bottom: 25px; }
+
+    /* Card Box */
+    .card { background: #fff; border-radius: 6px; padding: 25px; margin-bottom: 25px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+    .card h3 { color: #000080; text-decoration: underline; margin-bottom: 15px; font-size: 16px; }
+
+    /* Grid layout for Admissions */
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 30px; }
+    .grid-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; text-align: center; }
+    .grid-card h4 { color: #000080; margin-bottom: 10px; font-size: 15px; }
+    .grid-card a { color: #0056b3; text-decoration: none; font-size: 13px; }
+
+    /* List Sections */
+    .section-title { font-size: 20px; font-weight: bold; margin: 30px 0 15px; color: #222; }
+    .link-list { list-style: none; border-top: 1px solid #ddd; }
+    .link-list li { border-bottom: 1px dashed #ccc; padding: 10px 0; }
+    .link-list li a { color: #0056b3; text-decoration: none; font-size: 14px; }
+    .link-list li a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <!-- Top Utility Bar -->
+  <div class="top-bar">
+    <div>
+      Screen Reader Access | <a href="#">A-</a> <a href="#">A</a> <a href="#">A+</a>
+    </div>
+    <div>
+      <a href="#">Notification Alerts</a>
+      <a href="#">Recruitment</a>
+      <a href="#">Alumni Portal</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Header Section -->
+  <header>
+    <img src="https://via.placeholder.com/80?text=MITS+Logo" alt="MITS Logo">
+    <div class="header-text">
+      <h2>माधव प्रौद्योगिकी एवं विज्ञान संस्थान, ग्वालियर (म.प्र.), भारत</h2>
+      <h1>MADHAV INSTITUTE OF TECHNOLOGY & SCIENCE, GWALIOR (M.P.), INDIA</h1>
+      <p>Deemed University (Declared under Distinct Category by Ministry of Education, Government of India)</p>
+      <div class="naac">NAAC ACCREDITED WITH A++ GRADE</div>
+    </div>
+    <img src="https://via.placeholder.com/80?text=QS+Logo" alt="MITS Crest">
+  </header>
+
+  <!-- Dynamic Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#">About Institute</a>
+        <ul>
+          <li><a href="#">Overview</a></li>
+          <li><a href="#">Vision & Mission</a></li>
+          <li><a href="#">Leadership</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Administration</a></li>
+      <li><a href="#">Academics</a></li>
+      <li><a href="#">Students Life</a></li>
+      <li><a href="#">Admission</a></li>
+      <li><a href="#">R&D</a></li>
+      <li><a href="#">Training & Placements</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content Container -->
+  <div class="container">
+    <img class="hero-img" src="https://via.placeholder.com/900x350?text=MITS+Campus+Sports+Event" alt="MITS Sports Event">
+    
+    <h2 class="welcome-title">WELCOME TO MITS GWALIOR</h2>
+    <p class="tagline">"Mission to Innovate Technology for Society"</p>
+
+    <div class="card">
+      <h3>VISION</h3>
+      <p>To create world class quality Engineers and Technocrats capable of providing leadership in all spheres of life and society.</p>
+    </div>
+
+    <div class="card">
+      <h3>Message From the Vice Chancellor's Desk</h3>
+      <img src="https://via.placeholder.com/600x300?text=Dr.+R.K.+Pandit+Director+MITS" alt="Director Message" style="max-width: 100%; border-radius: 4px;">
+    </div>
+
+    <h3 class="section-title">Admissions 2026</h3>
+    <div class="grid">
+      <div class="grid-card">
+        <h4>B.Tech Admissions</h4>
+        <a href="#">View Details</a>
+      </div>
+      <div class="grid-card">
+        <h4>M.Tech Admissions</h4>
+        <a href="#">View Details</a>
+      </div>
+      <div class="grid-card">
+        <h4>Ph.D Admissions</h4>
+        <a href="#">View Details</a>
+      </div>
+      <div class="grid-card">
+        <h4>PDF Admissions</h4>
+        <a href="#">View Details</a>
+      </div>
+    </div>
+
+    <h3 class="section-title">Highlights</h3>
+    <ul class="link-list">
+      <li><a href="#">List of selected candidates for admission to the PhD programme (2026-27 Session) & Counselling Notice</a></li>
+      <li><a href="#">Notice regarding Direct Admission to Second and Third Year of UG Programmes (2026–27) under Multiple Entry and Multiple Exit (MEME) option as per NEP 2020 Guidelines</a></li>
+      <li><a href="#">Tender document for Field improvement and development of football ground extension in the campus</a></li>
+      <li><a href="#">Result of Project Exhibition, B.Tech. First year & Second year Projects</a></li>
+      <li><a href="#">Call for Papers – 8th International Conference on Sustainable and Innovative Solutions for Current Challenges in Engineering & Technology</a></li>
+    </ul>
+
+    <h3 class="section-title">Quick Links</h3>
+    <ul class="link-list">
+      <li><a href="#">UGC Public Self-Disclosure</a></li>
+      <li><a href="#">MITS Journal</a></li>
+      <li><a href="#">IMS Student Login</a></li>
+      <li><a href="#">IMS Staff Login</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
